@@ -7,27 +7,30 @@
     android:background="@drawable/gradient"
     tools:context="MainActivity">
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/exit"
-        android:textSize="20sp"
-        android:backgroundTint="#012AFF"
-        android:layout_marginTop="280dp"
-        android:layout_gravity="center"
-        />
-
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/start"
-        android:backgroundTint="#012AFF"
+        android:textColor="@color/white"
+        android:backgroundTint="#01B7FF"
         android:textSize="20sp"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="310dp"
         />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#01B7FF"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+
 
 </LinearLayout>

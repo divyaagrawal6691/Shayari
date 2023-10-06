@@ -12,12 +12,12 @@ public class ss extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ss);
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent iHome = new Intent(ss.this, MainActivity.class);
-                startActivity(iHome);
-            }
-        },2000);
+        new Handler().postDelayed(() -> {
+            Intent intent = new Intent(ss.this, MainActivity.class);
+            startActivity(intent);
+        }, 2000);
     }
 }
+
+
+

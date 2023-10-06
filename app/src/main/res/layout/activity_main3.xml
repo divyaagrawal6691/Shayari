@@ -13,13 +13,24 @@
         android:orientation="vertical"
         android:layout_height="wrap_content">
 
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exit"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="#01B7FF"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="110sp"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="मिल नहीं पाता तो क्या हुआ,
-            मोहब्बत तो तुमसे फिर भी बेहिसाब करता हूँ !"
+            android:text="@string/shayari1"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -29,8 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="भूल जाता हूँ मैं मंजिल का पता,
-            जब घर से तुझे याद करके निकलता हूँ !"
+            android:text="@string/shayari2"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -40,10 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="है इश्क तो फिर असर भी होगा,
-            जितना है इधर उधर भी होगा ।
-
-"
+            android:text="@string/shayari3"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -53,10 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="सबसे अच्छा पल वही जो साथ तेरे गुजरा,
-                                          बाकी तो हम जिन्दगी बस जीए जा रहे थे !
-
-"
+            android:text="@string/shayari4"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -68,10 +72,17 @@
             android:layout_marginTop="10sp"
             android:background="@drawable/rectangle"
             android:gravity="center"
-            android:text="मोहब्बत तो हमेशा तुझी से रहेगी,
-चाहे तुम नाराज रहो चाहे नजर अंदाज करो !
+            android:text="@string/shayari5"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
 
-"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/rectangle"
+            android:gravity="center"
+            android:text="@string/shayari6"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -79,10 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="मोहब्बत का कोई रंग नही फिर भी वो रंगीन है,
-प्यार का कोई चेहरा नही फिर भी वो हसीन हैं !
-
-"
+            android:text="@string/shayari7"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -92,10 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="तेरे इश्क में में इस तरह नीलाम हो जाऊँ,
-आखरी हो तेरी बोली और में तेरे नाम हो जाऊ !
-
-"
+            android:text="@string/shayari8"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -105,10 +110,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="दिखने में वो बहुत गरीब थी साहब पर,
-उसकी हँसी किसी शहजादी से कम नहीं थी !
-
-"
+            android:text="@string/shayari9"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -118,10 +120,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="मुझे तू चाहे तेरा साथ चाहिए जिसे थाम कर,
-मैं पूरी जिंदगी बिता दूँ वो वाला हाथ चाहिए !
-
-"
+            android:text="@string/shayari10"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -131,10 +130,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="जो इंसान आपको खुश रख सकता है,
-उससे ज्यादा अच्छा आपके लिए कोई नहीं हो सकता !
-
-"
+            android:text="@string/shayari11"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -144,10 +140,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="जिसे सोच कर ही चहरे पर खुशी आ जाये,
-वो खूबसूरत एहसास हो तुम ।
-
-"
+            android:text="@string/shayari12"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -157,10 +150,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="कहने को तो मेरा दिल एक है लेकिन,
-जिसको दिल दिया है वो हजारो में एक है !
-
-"
+            android:text="@string/shayari13"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -170,10 +160,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="मुझे बस तू चाहिये,
-ये मत पूछ क्यों चाहिए !
-
-"
+            android:text="@string/shayari14"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -183,10 +170,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="तुम्हें दिल में हजार बार याद करता हूँ,
-मैं तुम्हें तुमसे ज्यादा प्यार करता हूँ ।
-
-"
+            android:text="@string/shayari15"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -196,23 +180,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="तुम्हें दिल में हजार बार याद करता हूँ,
-मैं तुम्हें तुमसे ज्यादा प्यार करता हूँ ।
-
-"
-            android:background="@drawable/rectangle"
-            android:textSize="25sp"
-            android:layout_marginTop="10sp"
-            android:textColor="@color/black" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="तुम्हारा तो गुस्सा भी इतना प्यारा है की,
-दिल करता है दिनभर तुम्हे तंग करता रहूँ ।
-
-"
+            android:text="@string/shayari16"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -224,10 +192,7 @@
             android:layout_marginTop="10sp"
             android:gravity="center"
             android:background="@drawable/rectangle"
-            android:text="आप की खा़तिर अगर हम लूट भी लें आसमाँ,
-क्या मिलेगा चंद चमकीले से शीशे तोड़ के !
-
-"
+            android:text="@string/shayari17"
             android:textColor="@color/black"
             android:textSize="25sp" />
 
@@ -235,10 +200,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="आप की खा़तिर अगर हम लूट भी लें आसमाँ,
-क्या मिलेगा चंद चमकीले से शीशे तोड़ के !
-
-"
+            android:text="@string/shayari18"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -248,8 +210,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="मैं गलती करूँ तब भी मुझे सीने से लगा ले,
-कोई ऐसा चाहिये जो मेरे हर नखरे उठा ले।"
+            android:text="@string/shayari19"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
@@ -259,8 +220,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="अगर बिकने पे आ जाओ तो घट जाते हैं दाम अक्सर,
-न बिकने का इरादा हो तो कीमत और बढ़ती है !"
+            android:text="@string/shayari20"
             android:background="@drawable/rectangle"
             android:textSize="25sp"
             android:layout_marginTop="10sp"
