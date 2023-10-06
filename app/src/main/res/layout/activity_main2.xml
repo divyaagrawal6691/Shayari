@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EXIT"
+        android:backgroundTint="#3D71BF"
+        android:layout_marginTop="640sp"
+        android:layout_marginStart="270sp"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-385sp"
+        android:background="@drawable/gradient3"
+        android:text="@string/love_shayari"
+        tools:ignore="ButtonStyle,InvalidId" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/motivational_shayari"
+        android:backgroundTint="@drawable/gradient3"
+        android:layout_gravity="center"
+        tools:ignore="ButtonStyle,InvalidId" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/frienship_shayari"
+        android:layout_marginBottom="-200sp"
+        android:backgroundTint="#ED0909"
+        android:layout_gravity="center"
+
+        tools:ignore="ButtonStyle,InvalidId" />
+
+</LinearLayout>
