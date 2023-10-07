@@ -21,11 +21,11 @@
         android:id="@+id/btn3"
         android:layout_width="250sp"
         android:layout_height="wrap_content"
+        android:text="@string/love_shayari"
         android:layout_gravity="center"
         android:textSize="15sp"
         android:layout_marginTop="-390sp"
         android:background="@drawable/gradient3"
-        android:text="@string/love_shayari"
         tools:ignore="ButtonStyle,InvalidId" />
 
     <Button
